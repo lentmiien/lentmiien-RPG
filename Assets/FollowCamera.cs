@@ -8,6 +8,6 @@ public class FollowCamera : MonoBehaviour
 
     void Update()
     {
-        Camera.main.transform.position = target.position;
+        transform.position = target.position;
     }
 }
